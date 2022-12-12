@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'core/init/main_build.dart';
 
-import 'use_case/special_search/special_search_view.dart';
+import 'example/network_change_example.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SpecialSearchView(),
+      builder: MainBuild.build,
+      home: const NetworkChangeView(),
     );
   }
 }
