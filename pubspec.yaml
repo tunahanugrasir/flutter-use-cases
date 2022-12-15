@@ -9,7 +9,7 @@ environment:
   sdk: ">=2.18.5 <3.0.0"
 
 dependencies:
-  async: ^2.10.0
+  async:
   connectivity_plus: null
   cupertino_icons: ^1.0.2
   flutter:
