@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'core/init/main_build.dart';
-import 'use_case/generic_filter/filter_home_view.dart';
+import 'use_case/modular_field/modular_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       builder: MainBuild.build,
-      home: const FilterHomeView(),
+      home: const ModularView(),
     );
   }
 }

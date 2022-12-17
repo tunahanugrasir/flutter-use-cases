@@ -11,8 +11,6 @@ class FilterHomeView extends StatefulWidget {
 }
 
 class _FilterHomeViewState extends State<FilterHomeView> {
-  final List<City> _cities = Cities.cities;
-
   String _name = '';
   @override
   Widget build(BuildContext context) {
