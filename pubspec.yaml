@@ -15,10 +15,25 @@ dependencies:
   cupertino_icons: ^1.0.2
   #LOCALIZATIONS
   easy_localization: ^3.0.1
+
+
+  flutter_gen:
+    output: lib/product/generation
+    line_length: 80
+    integrations:
+      flutter_svg: true
+      flare_flutter: true
+      rive: true
+      lottie: true
+    assets:
+      enabled: true
+    colors:
+      enabled: true
+      inputs:
+        - assets/color/colors.xml
   flutter:
     sdk: flutter
 
-  flutter_gen: ^5.1.0+1
   kartal: ^2.7.0
   uikit:
     path: module/uikit
